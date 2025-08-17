@@ -1,0 +1,20 @@
+<svg width="200" height="200" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg">
+  <!-- Fondo negro -->
+  <rect width="200" height="200" fill="#000000"/>
+  
+  <!-- Logo SENA en verde -->
+  <g fill="#4CAF50">
+    <!-- Texto SENA -->
+    <text x="100" y="60" font-family="Arial, sans-serif" font-size="24" font-weight="bold" text-anchor="middle" fill="#4CAF50">SENA</text>
+    
+    <!-- Figura estilizada -->
+    <!-- Círculo superior (cabeza) -->
+    <circle cx="100" cy="80" r="8" fill="#4CAF50"/>
+    
+    <!-- Brazos horizontales -->
+    <rect x="70" y="88" width="60" height="6" fill="#4CAF50"/>
+    
+    <!-- Cuerpo en forma de V invertida -->
+    <path d="M 100 94 L 70 130 L 130 130 Z" fill="#4CAF50"/>
+  </g>
+</svg>
