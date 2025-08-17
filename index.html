@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SENA Blog - Estilo Aero</title>
+    <link rel="icon" type="image/png" href="assets/logos/Logo-de-SENA-png-verde-300x300-1.png">
+    <link rel="shortcut icon" type="image/png" href="assets/logos/Logo-de-SENA-png-verde-300x300-1.png">
+    <link rel="apple-touch-icon" href="assets/logos/Logo-de-SENA-png-verde-300x300-1.png">
+    <meta name="msapplication-TileImage" content="assets/logos/Logo-de-SENA-png-verde-300x300-1.png">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Header con efecto aero -->
+        <header class="header">
+            <nav class="nav">
+                <div class="logo">
+                    <img src="assets/logos/Logo-de-SENA-png-verde-300x300-1.png" alt="Logo SENA" class="sena-logo">
+                    <span>SENA Blog</span>
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#inicio">Main Page</a></li>
+                    <li><a href="#blog">BLOG</a></li>
+                    <li><a href="#sobre-mi">About Me</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Hero Section -->
+        <section class="hero" id="inicio">
+            <div class="hero-content">
+                <h1 class="hero-title">Welcome to my personal blog</h1>
+                <p class="hero-subtitle">Enjoy the content</p>
+                <button class="cta-button" onclick="scrollToBlog()">
+                    <i class="fas fa-arrow-right"></i>
+                    Explore entries
+                </button>
+            </div>
+            <div class="hero-image">
+                <div class="floating-card">
+                    <img src="assets/logos/Logo-de-SENA-png-verde-300x300-1.png" alt="Logo SENA" class="hero-sena-logo">
+                </div>
+            </div>
+        </section>
+
+        <!-- Blog Posts Section -->
+        <section class="blog-section" id="blog">
+            <h2 class="section-title">Last Articles</h2>
+            <div class="blog-grid">
+                <article class="blog-card" data-article="1">
+                    <div class="card-image">
+                        <img src="assets/icons/blog-icons/ley.png" alt="Ley Icon" class="card-icon">
+                    </div>
+                    <div class="card-content">
+                        <h3>Restorative Justice: Beyond Retribution</h3>
+                        <p>Restorative justice reframes crime as a relationship rupture — what happens when we shift attention from punishment to repair?</p>
+                        <div class="card-meta">
+                            <span><i class="fas fa-calendar"></i> August 15, 2025</span>
+                            <span><i class="fas fa-tag"></i> Law and punishment</span>
+                        </div>
+                        <div class="card-tags">
+                            <span class="tag">Justice</span>
+                            <span class="tag">restorative-justice</span>
+                            <span class="tag">beyond-retribution</span>
+                        </div>
+                        <button class="read-more">read more</button>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-article="2">
+                    <div class="card-image">
+                        <img src="assets/icons/blog-icons/huella.png" alt="Huella Icon" class="card-icon">
+                    </div>
+                    <div class="card-content">
+                        <h3>Criminalization of Poverty: When Survival Becomes a Crime</h3>
+                        <p>Many acts labeled “crime” are consequences of social exclusion. Treating poverty as a legal problem deepens inequality.</p>
+                        <div class="card-meta">
+                            <span><i class="fas fa-calendar"></i> August 13, 2025</span>
+                            <span><i class="fas fa-tag"></i> Law and punishment</span>
+                        </div>
+                        <div class="card-tags">
+                            <span class="tag">inequality</span>
+                            <span class="tag">policy</span>
+                            <span class="tag">social justice</span>
+                        </div>
+                        <button class="read-more">Read full</button>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-article="3">
+                    <div class="card-image">
+                        <img src="assets/icons/blog-icons/privacidad.png" alt="Privacidad Icon" class="card-icon">
+                    </div>
+                    <div class="card-content">
+                        <h3>Surveillance, Technology & the Erosion of Privacy in Justice</h3>
+                        <p>The tech that helps catch criminals also reshapes who is watched — and who is punished. What balance protects both safety and rights?.</p>
+                        <div class="card-meta">
+                            <span><i class="fas fa-calendar"></i> August 10, 2025</span>
+                            <span><i class="fas fa-tag"></i> Law and punishment</span>
+                        </div>
+                        <div class="card-tags">
+                            <span class="tag">surveillance</span>
+                            <span class="tag">AI</span>
+                            <span class="tag">civil liberties</span>
+                        </div>
+                        <button class="read-more">Read full</button>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-article="4">
+                    <div class="card-image">
+                        <img src="assets/icons/blog-icons/penademuerte.png" alt="Pena de Muerte Icon" class="card-icon">
+                    </div>
+                    <div class="card-content">
+                        <h3>Death Penalty: Retribution, Deterrence, and the Moral Argument</h3>
+                        <p>Does capital punishment deter? Is it moral? This post contests common claims and suggests policy reframing.</p>
+                        <div class="card-meta">
+                            <span><i class="fas fa-calendar"></i> August 8, 2025</span>
+                            <span><i class="fas fa-tag"></i> Law and punishment</span>
+                        </div>
+                        <div class="card-tags">
+                            <span class="tag">ethics</span>
+                            <span class="tag">policy</span>
+                            <span class="tag">human rights</span>
+                        </div>
+                        <button class="read-more">Read full</button>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-article="5">
+                    <div class="card-image">
+                        <img src="assets/icons/blog-icons/pena.png" alt="Pena Icon" class="card-icon">
+                    </div>
+                    <div class="card-content">
+                        <h3>Juvenile Justice: Punish, Rehabilitate, or Protect?</h3>
+                        <p>Adolescence is malleable; treating youth like adults in criminal law misses developmental science and policy efficiency.</p>
+                        <div class="card-meta">
+                            <span><i class="fas fa-calendar"></i> August 5, 2025 </span>
+                            <span><i class="fas fa-tag"></i> Law and punishment</span>
+                        </div>
+                        <div class="card-tags">
+                            <span class="tag">youth</span>
+                            <span class="tag">rehabilitation</span>
+                            <span class="tag">education</span>
+                        </div>
+                        <button class="read-more">Read full</button>    
+                    </div>
+                </article>
+
+                <article class="blog-card" data-article="6">
+                    <div class="card-image">
+                        <img src="assets/icons/blog-icons/critico.png" alt="Pensamiento Crítico Icon" class="card-icon">
+                    </div>
+                    <div class="card-content">
+                        <h3>Critical Thinking & Media Literacy — How to Read the News Like a Detective</h3>
+                        <p>In an era of speed and attention scarcity, learning to interrogate sources is the single most valuable civic skill..</p>
+                        <div class="card-meta">
+                            <span><i class="fas fa-calendar"></i> August 12, 2025</span>
+                            <span><i class="fas fa-tag"></i> read-news-like-a-detective</span>
+                        </div>
+                        <div class="card-tags">
+                            <span class="tag">media literacy</span>
+                            <span class="tag">misinformation</span>
+                            <span class="tag">education</span>
+                        </div>
+                        <button class="read-more">Read full</button>
+                    </div>
+                </article>
+
+                <article class="blog-card" data-article="7">
+                    <div class="card-image">
+                        <img src="assets/icons/blog-icons/media.png" alt="Media Icon" class="card-icon">
+                    </div>
+                    <div class="card-content">
+                        <h3>Media Literacy in the Age of AI: Deepfakes, Synthetic Voices, and Trust</h3>
+                        <p>Synthetic media complicates what we mean by “evidence.” Teaching digital verification skills is now essential to civic life.</p>
+                        <div class="card-meta">
+                            <span><i class="fas fa-calendar"></i> August 6, 2025</span>
+                            <span><i class="fas fa-tag"></i> media-literacy-ai-deepfakes</span>
+                        </div>
+                        <div class="card-tags">
+                            <span class="tag">AI</span>
+                            <span class="tag">deepfakes</span>
+                            <span class="tag">digital skills</span>
+                        </div>
+                        <button class="read-more">Read full</button>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about-section" id="sobre-mi">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>I am a SENA apprentice and an informatic engineer student with a sort of professional experience in cybersecurity</p>
+                    <p>Thanks for reading my blog be welcome to share the entries and enjoy the content!</p>
+                    <div class="skills">
+                        <span class="skill-tag">HTML/CSS</span>
+                        <span class="skill-tag">JavaScript</span>
+                        <span class="skill-tag">Networking</span>
+                        <span class="skill-tag">Cybersecurity</span>
+                    </div>
+                </div>
+                <div class="about-image">
+                    <div class="profile-card">
+                        <img src="assets/images/profile-photo.jpg" alt="Foto de Perfil" class="profile-photo">
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-logo">
+                    <img src="assets/logos/Logo-de-SENA-png-verde-300x300-1.png" alt="Logo SENA" class="sena-logo">
+                    <span>SENA Blog</span>
+                </div>
+                <p>&copy; 2025 SENA Blog. All rights reserved.</p>
+                <div class="social-links">
+                    <a href="https://linkedin.com/in/sena-blog" target="_blank" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="https://github.com/sena-blog" target="_blank" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://sena.edu.co" target="_blank" title="SENA">
+                        <img src="assets/logos/Logo-de-SENA-png-verde-300x300-1.png" alt="SENA" class="social-sena-logo">
+                    </a>
+                </div>
+            </div>
+        </footer>
+    </div>
+
+    <!-- Modal Pop-up para artículos -->
+    <div class="modal-overlay" id="modalOverlay">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h2 id="modalTitle">Título del Artículo</h2>
+                <button class="modal-close" id="modalClose">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <div class="modal-meta">
+                    <span id="modalDate"><i class="fas fa-calendar"></i> Date</span>
+                    <span id="modalCategory"><i class="fas fa-tag"></i> Type</span>
+                    <span id="modalAuthor"><i class="fas fa-user"></i> Autor</span>
+                </div>
+                <div class="modal-image">
+                    <img id="modalIcon" src="assets/icons/blog-icons/ley.png" alt="Article Icon" class="modal-card-icon">
+                </div>
+                <div class="modal-text">
+                    <p id="modalContent">Content of the article...</p>
+                </div>
+            </div>
+            <div class="modal-footer">
+                <button class="modal-share">
+                    <i class="fas fa-share"></i> Share
+                </button>
+                <button class="modal-bookmark">
+                    <i class="fas fa-bookmark"></i> Save
+                </button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Datos de los artículos
+        const articlesData = {
+            1: {
+                title: "Restorative Justice: Beyond Retribution",
+                date: "August 15, 2025",
+                category: "Law and punishment",
+                author: "Julezx",
+                icon: "assets/icons/blog-icons/ley.png",
+                content: `
+                    <p>Excerpt: Restorative justice reframes crime as a relationship rupture — what happens when we shift attention from punishment to repair?.</p>
+                    
+                    <h3>Practical benefits</h3>
+                    <p>lower recidivism in multiple pilot programs, higher victim satisfaction, and often cheaper outcomes than long prison terms. Ethically, it respects agency — victims can express needs; offenders can make amends and rebuild identity beyond “criminal.” Criticisms exist: RJ may feel insufficient for violent or large-scale crimes; power imbalances can re-victimize. The remedy is careful design: skilled facilitators, voluntary participation, and safeguards for vulnerable participants.</p>
+                    
+                    <h3>Policy takeaway</h3>
+                    <p>blend RJ into a mixed justice system — reserve incarceration for clear public-safety risks, and scale RJ for community and property harms, juvenile cases, and restorative elements inside correctional settings. The ultimate goal isn’t abolition or punishment-only — it’s a justice spectrum that centers human repair.</p>
+                    
+                    <h3>Summary</h3>
+                    <p>Most modern criminal systems still default to punishment as the primary response to wrongdoing. Retribution — “you did wrong, you pay” — is emotionally satisfying and politically useful, but it misses what often truly matters: restoring safety, healing harm, and preventing future harms. Restorative justice (RJ) reorients the conversation. It asks: who was harmed? What are their needs? And how can the community repair the damage?
+
+RJ is not naïve softness. It includes accountability — offenders must accept responsibility, often through mediated dialogue, community service, restitution, or structured apology. The difference is the target: instead of administering state-imposed suffering, RJ aims for restitution that rebuilds social bonds. This matters particularly in harms rooted in social disconnection, substance abuse, or poverty-driven offenses.</p>
+
+                `
+            },
+            2: {
+                title: "Criminalization of Poverty: When Survival Becomes a Crime",
+                date: "August 13, 2025",
+                category: "Justice",
+                author: "Julezx",
+                icon: "assets/icons/blog-icons/huella.png",
+                content: `
+                    <p>The tech that helps catch criminals also reshapes who is watched — and who is punished. What balance protects both safety and rights?.</p>
+                    
+                    <h3>The problem compounds</h3>
+                    <p>fines lead to warrants; warrants to arrests; arrests to jobs lost; loss of income to deeper instability. What starts as a minor, often survival-motivated act becomes a lifelong label that reduces access to housing, employment, and civic participation. From a cost perspective, criminalizing poverty is inefficient. Incarceration, court processing, and social disruption cost more than harm-reduction and social services..</p>
+                    
+                    <h3>Alternative approaches:</h3>
+                    <p>decriminalize low-level survival offenses, invest in housing-first policies, expand legal aid and social safety nets. Design policies that treat public order issues through social work rather than policing. But watch pitfalls: suddenly removing enforcement without alternatives can create governance vacuums. So pair decriminalization with robust support systems.</p>
+                    
+                    <h3>Moral argument</h3>
+                    <p>a fair society shouldn’t punish people for lacking resources it failed to provide. Practically, reducing criminalization reduces system burden and allows police resources to focus on serious threats.</p>
+                    
+                    <h3>Summary</h3>
+                    <p>Think about fines for unpaid transit fares, loitering laws in high-poverty neighborhoods, or fines that escalate until debt collectors step in — these are not neutral legal tools. They functionally criminalize poverty. When survival behaviors (sleeping in public, selling small items without license, petty theft for food) are policed, the state shifts the burden of inequality onto the most vulnerable.</p>
+
+                `
+            },
+            3: {
+                title: "Surveillance, Technology & the Erosion of Privacy in Justice",
+                date: "August 10, 2025",
+                category: "Justice",
+                author: "Julezx",
+                icon: "assets/icons/blog-icons/privacidad.png",
+                content: `
+                    <p>The tech that helps catch criminals also reshapes who is watched — and who is punished. What balance protects both safety and rights?.</p>
+                    
+                    <h3>Regulatory approaches exist:</h3>
+                    <p>strict limits on facial recognition for public policing; data minimization; transparency mandates; algorithmic audits; and community oversight boards. Technology can be a force for safety, but only with constraints that prevent control from becoming oppression..</p>
+                    
+                    <h3>my point of view:</h3>
+                    <p>technology often amplifies underlying social choices. Surveillance won’t fix inequality-driven crime. If we want safer societies, invest in social infrastructure as much as in tech, and demand accountable deployment.</p>
+                    
+                    <h3>We need to ask hard questions:</h3>
+                    <p>who controls the data? How transparent are the algorithms that influence policing? Are there independent audits? Are civil liberties preserved, especially for communities historically subjected to discriminatory policing?</p>
+                    
+                    <h3>Summary</h3>
+                    <p>Technologies like CCTV, facial recognition, location tracking, and predictive policing promise efficiency — identifying suspects faster, optimizing patrols, and even preventing crime. But each innovation carries trade-offs. Surveillance widens the gaze of the state and private actors into everyday life. Facial recognition errors disproportionately misidentify marginalized groups; predictive policing models trained on biased data can perpetuate over-policing of certain neighborhoods.</p>
+                `
+            },
+            4: {
+                title: "Death Penalty: Retribution, Deterrence, and the Moral Argument",
+                date: "August 8th 2025",
+                category: "Justice",
+                author: "Julezx",
+                icon: "assets/icons/blog-icons/penademuerte.png",
+                content: `
+                    <p>Does capital punishment deter? Is it moral? This post contests common claims and suggests policy reframing.</p>
+                    
+                    <h3>Full post:</h3>
+<p>The death penalty remains one of the most polarizing punishments. Supporters claim deterrence, closure for victims, and proportional justice. Opponents cite wrongful convictions, moral horror at state killing, racial and class disparities, and lack of clear deterrent evidence.
+
+Empirical studies on deterrence are inconclusive; many criminologists find little robust evidence that capital punishment reduces homicide rates more than long-term imprisonment. The moral argument is tougher: if the state kills in the name of justice, does it sanctify violence? Many legal philosophers argue that punishment should aim to prevent harm and repair — killing an offender removes future accountability, rehabilitation, and the possibility of exoneration.
+
+Practically, countries that maintain the death penalty often face higher risks of irreversible mistakes and international isolation. Alternatives include life imprisonment without parole paired with restorative opportunities for victims. Policy framing: emphasize human rights, strengthen legal safeguards where abolition is politically impossible, and invest in forensic accuracy, legal defense, and transparent appeals.
+
+The death penalty debate forces societies to clarify what justice is for them: revenge, prevention, or restoration. My stance is to prioritize prevention and certainty over irreversible punishment.</p>
+                `
+            },
+            5: {
+                title: "Juvenile Justice: Punish, Rehabilitate, or Protect?",
+                date: "August 5th 2025",
+                category: "Backend",
+                author: "Julezx",
+                icon: "assets/icons/blog-icons/pena.png",
+                content: `
+                    <p>Adolescence is malleable; treating youth like adults in criminal law misses developmental science and policy efficiency.</p>
+                    
+                    <h3>Full post:</h3>
+<p>Adolescents’ brains are still developing — particularly areas governing impulse control and future planning. This neurological truth has legal implications: youths convicted as adults face far worse outcomes than those in rehabilitative systems. The question isn’t whether young people commit crimes; it’s how society responds.
+
+Research indicates that rehabilitative and educational interventions reduce recidivism more effectively than punitive incarceration. Programs that focus on therapy, family engagement, vocational training, and continued schooling produce better long-term social outcomes and cost less than detention.
+
+But nuance matters: serious violent offenses raise public-safety concerns and emotional demands for accountability. A balanced policy can differentiate between risk levels, prioritize community-based interventions for low-to-moderate offenses, and reserve secure confinement only for those who pose ongoing danger — while ensuring robust legal protections and tailored rehabilitation.
+
+A humane juvenile system invests in prevention: mental-health services, school support, and youth employment — the upstream policies that reduce crime and build social resilience.</p>
+                `
+            },
+            6: {
+                title: "Critical Thinking & Media Literacy, How to Read the News Like a Detective",
+                date: "August 12th 2025",
+                category: "read-news-like-a-detective",
+                author: "Julezx",
+                icon: "assets/icons/blog-icons/critico.png",
+                content: `
+                    <p>In an era of speed and attention scarcity, learning to interrogate sources is the single most valuable civic skill.</p>
+                    
+                    <h3>Full post:</h3>
+                    <p>We live in a fast-media ecosystem: social feeds, recycled headlines, and attention algorithms that reward outrage. Critical thinking in this environment isn’t about cynicism — it’s about method. Here’s a practical approach:</p>
+
+                    <p>Source check: Who published this claim? An established outlet, an unknown site, or a social post? Check the “About” page; are there clear authorship and editorial standards?</p>
+
+                   <p>Corroboration: Does any reputable outlet report the same fact? If only one source exists, treat it cautiously.</p>
+
+                  <p> Motives and framing: Is the item framed to provoke emotion? What’s missing from the framing? Consider who benefits from the narrative.</p>
+
+                   <p>Evidence over assertion: Distinguish between interpretation and verifiable facts. Seek primary sources (statements, reports, data).</p>
+
+                   <p>Reverse image/video search: Media can be repurposed or taken out of context. Tools exist to check origin.</p>
+
+                   <p>Bias awareness: Everyone has biases. Being aware of yours helps you question why a story resonates.</p>
+
+                   <p>Teaching these steps in schools, workplaces, and families builds social immunity to misinformation. Practice with micro-exercises: compare two articles on the same event and list what’s left out by each.</p>
+                `
+            },
+            7: {
+                title: "Media Literacy in the Age of AI: Deepfakes, Synthetic Voices, and Trust",
+                date: "August 6th 2025",
+                category: "media-literacy-ai-deepfakes",
+                author: "Julezx",
+                icon: "assets/icons/blog-icons/media.png",
+                content: `
+
+                 <h3>Full post:</h3>
+
+                    <p>AI tools create convincing images, video, and audio — useful for art and productivity, dangerous when weaponized for deception. The result: the old heuristic “I saw it with my own eyes” is less reliable. Media literacy must therefore evolve from simple source-checking to technical skepticism.
+
+                    Practical skills to teach:
+
+                    --Authentication signals: Look for metadata, corroborating eyewitness accounts, and original uploading accounts.
+
+                    --Technical signs: Imperfect lip-sync, unnatural blinking, inconsistent lighting. These are heuristics but get more subtle as AI improves.
+
+                   -- Chain of custody: Who created and who altered the media? A document with a clear provenance is more trustworthy.
+
+                    --Platform-level tools: Many platforms now label synthesized content or provide provenance tools; teach people to spot those labels and to use platform reporting mechanisms.
+
+                    --Ethical questions: how to balance free speech with regulation? Heavy-handed bans risk stifling creativity; laissez-faire enables abuse. A mixed strategy seems sensible: require disclosure for synthetic content used in political contexts, invest in detection research, and teach the public to assess provenance.
+
+                    Final thought: digital literacy isn’t optional. It’s a civic literacy necessary for voting, community debate, and personal safety. Curriculum reform should treat it as core as reading and math.</p>
+                `
+            }
+        };
+
+        // Elementos del modal
+        const modalOverlay = document.getElementById('modalOverlay');
+        const modalTitle = document.getElementById('modalTitle');
+        const modalDate = document.getElementById('modalDate');
+        const modalCategory = document.getElementById('modalCategory');
+        const modalAuthor = document.getElementById('modalAuthor');
+        const modalIcon = document.getElementById('modalIcon');
+        const modalContent = document.getElementById('modalContent');
+        const modalClose = document.getElementById('modalClose');
+
+        // Función para abrir el modal
+        function openModal(articleId) {
+            const article = articlesData[articleId];
+            if (article) {
+                modalTitle.textContent = article.title;
+                modalDate.innerHTML = `<i class="fas fa-calendar"></i> ${article.date}`;
+                modalCategory.innerHTML = `<i class="fas fa-tag"></i> ${article.category}`;
+                modalAuthor.innerHTML = `<i class="fas fa-user"></i> ${article.author}`;
+                modalIcon.src = article.icon;
+                modalContent.innerHTML = article.content;
+                
+                modalOverlay.classList.add('active');
+                document.body.style.overflow = 'hidden';
+            }
+        }
+
+        // Función para cerrar el modal
+        function closeModal() {
+            modalOverlay.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        // Event listeners para los botones "Read full"
+        document.querySelectorAll('.read-more').forEach(button => {
+            button.addEventListener('click', function(e) {
+                e.preventDefault();
+                const articleCard = this.closest('.blog-card');
+                const articleId = articleCard.getAttribute('data-article');
+                openModal(articleId);
+            });
+        });
+
+        // Event listeners para cerrar el modal
+        modalClose.addEventListener('click', closeModal);
+        modalOverlay.addEventListener('click', function(e) {
+            if (e.target === modalOverlay) {
+                closeModal();
+            }
+        });
+
+        // Cerrar modal con la tecla Escape
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape' && modalOverlay.classList.contains('active')) {
+                closeModal();
+            }
+        });
+
+        // Función para scroll suave hacia la sección del blog
+        function scrollToBlog() {
+            document.getElementById('blog').scrollIntoView({
+                behavior: 'smooth',
+                block: 'start'
+            });
+        }
+
+        // Smooth scrolling para los enlaces de navegación
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+
+        // Efecto de hover en las tarjetas
+        document.querySelectorAll('.blog-card').forEach(card => {
+            card.addEventListener('mouseenter', function() {
+                this.style.transform = 'translateY(-10px)';
+            });
+            
+            card.addEventListener('mouseleave', function() {
+                this.style.transform = 'translateY(0)';
+            });
+        });
+    </script>
+</body>
+</html>
